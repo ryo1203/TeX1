@@ -1,0 +1,62 @@
+\documentclass[dvipdfmx]{jsarticle}
+\usepackage{mymacros}
+\usepackage{amsmath,amssymb}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\begin{document}
+\タイトル{TikZの練習}{石塚　伶}
+\begin{center}
+  \begin{tikzpicture}[auto]
+    \node (a) at (0,0) {$a$}; \node (b) at (1.2,0) {$b$};
+    \draw [-to] (a) to node {$\scriptstyle f $} (b);
+  \end{tikzpicture}
+\end{center}
+\clearpage
+\タイトル{数式の練習}{石塚　伶}
+\rotatebox{160}{\reflectbox{アインシュタインは $E=mc^2$ と言った。}}
+
+\begin{tcolorbox}[colback=white,title=粋な枠]
+  \[ \sqrt{\left( \frac{\displaystyle\int_0^\infty f(x)\,dx}{\displaystyle\int_0^\infty g(x)\,dx} \right)^n} \]
+\end{tcolorbox}
+
+文章中の和分$\sum_{k=0}^\infty$\\
+文章外の和分
+\begin{equation}
+\textstyle\sum\limits_{k=0}^\infty a_k = a_1 + a_2 + \cdots \label{eq:inftysum}
+\end{equation}
+文章中の和分$\displaystyle\sum_{k=0}^\infty$
+文章中の和分\[\sum\nolimits_{k=0}^\infty\]
+
+\[\int\!\!\!\!\int\int\]
+
+無限級数の和 (\ref{eq:inftysum}) \pageref{eq:inftysum}
+\[\bigl| |x| + |y| \bigr|\]
+$\left(x-f(x)\right) / \left(x+f(x)\right)$
+$\bigl(x-f(x)\bigr) \bigm/ \bigl(x+f(x)\bigr)$
+
+$\epsilon - \delta$論法
+
+ ある関数$f(x)$が$x=a$で連続であるとは
+\[\forall \epsilon >\!0 \quad \exists \delta >\!0 \quad s.t \quad \forall x \in \mathbb{R} \quad \bigl[\ |x - a|< \delta \Longrightarrow |f(x) - f(a)|< \epsilon\ \bigr]\]
+が成り立つことをいう。
+
+ある数列$a_n$が$\alpha$に収束するとは
+\[\forall \epsilon > 0 \quad \exists N \in \mathbb{N} \quad s.t \quad \forall n \in \mathbb{N} \quad \bigl[n > N \Longrightarrow |a_n - \alpha| < \epsilon \bigr]\]
+が成り立つことをいう。
+
+ディリクレの関数
+\begin{equation*}
+f(x) = \lim_{n \to \infty} \lim_{k \to \infty} \cos^{2k}(n! \pi x)
+\end{equation*}
+\[
+A = \left(
+\begin{matrix}
+a_{1,1} & a_{1,2} & \dots  & a_{1,n} \\
+a_{2,1} & a_{2,2} & \dots  & a_{2,n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{m,1} & a_{m,2} & \dots  & a_{m,n}
+\end{matrix}
+\right)
+\]
+
+\end{document}

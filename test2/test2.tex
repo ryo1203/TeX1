@@ -1,0 +1,64 @@
+\documentclass{jsarticle}
+\usepackage{okumacro,mymacros}
+\begin{document}
+
+\begin{flushright}
+平成28年12月22日
+\end{flushright}
+
+\begin{flushleft}
+\sg{読者各位}\\
+読者各位
+\end{flushleft}
+
+\begin{flushright}
+東京都新宿区市谷佐内町21-13\\
+(株)技術評論社
+\end{flushright}
+
+\begin{center}
+\LARGE \ruby{○○のご案内}{まるまるのご案内}
+\end{center}
+
+\noindent
+拝啓　時下ますますご清祥のことと。平素は格別のお引き立てに預かり、厚く御礼申し上げます。
+
+さて、この度弊社では・・・・・・。
+
+まずは略儀ながら書中をもってご案内申し上げます。
+
+\敬具
+
+\記
+\記
+
+\begin{tabular}{rll}
+1.& 日時 & 平成29年1月24日(火)午後3時 \\
+2.& 場所 & 技術評論社2階セミナールーム
+\end{tabular}
+\\
+\\
+※地図を同封いたしました。
+\clearpage
+
+\LaTeX には
+\begin{itemize}
+  \item \framebox[5cm]{記号付き箇条書き}
+  \begin{itemize}
+    \item itemize\\
+    \hrulefill\\
+    \dotfill
+  \end{itemize}
+  \item 番号付き\footnote{脚注} 箇条書き
+  \begin{itemize}
+    \item enumerate
+  \end{itemize}
+  \item \underline{見出し付き箇条書き}
+  \begin{itemize}
+    \item description
+  \end{itemize}
+\end{itemize}
+の機能がある
+
+
+\end{document}

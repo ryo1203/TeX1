@@ -1,0 +1,4 @@
+PWD C:/Users/1203r/TeX/TeXbibunsyo/test1
+INPUT c:/w32tex/share/texmf-dist/web2c/texmf.cnf
+INPUT c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt
+INPUT test1.tex

@@ -2,28 +2,78 @@
 \usepackage{mymacros}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{tcolorbox}
+\usepackage{mathrsfs}
 \usepackage{tikz}
+\usepackage{multicol}
+\newtheorem{theo}{定理}
+\newtheorem{defi}{定義}
+\newtheorem{lemm}{補題}
+\newtheorem{plob}{演習問題}
+\newtheorem{axio}{公理}
+\title{1類リテラシ・1類特別講義レポート課題(数学系)}
+\author{18B01162 石塚伶}
 \begin{document}
-\タイトル{一類リテラシ数学系講義}{}
-\begin{tcolorbox}[colback=white,title=\textbf{プラトーの問題}]
-  与えられた閉曲線を境界に持つ曲面積が最小の曲面は存在するか。
-\end{tcolorbox}
+\maketitle
+\subsection{概要}
+\titlebox{プラトーの問題}{与えられた閉曲線を境界に持つ曲面積が最小の局面は存在するか。}
+この問題に対して、存在することはシャボン玉の膜の実験により言えそうだがそれを数学でどのように証明すれば良いのかを考えた。
+\begin{multicols}{2}
+    まずは三次元から一つ次元を落として、与えられた二点を結ぶ曲線のうち長さが最小の曲線が存在するかを考える。
 
-\begin{table}[h]
-  \begin{tabular}{rl}
-    この問題の探求 $\longrightarrow$ & $\circ$ ブラックホールの質量定理 \\
-     & $\circ$ 水などの流体方程式(ナビエ・ストークス方程式)の滑らかさについての問題 \\
-     & $\circ$ ポアンカレ予想の解決 \\
-  \end{tabular}
-\end{table}
+    これはその二点を結ぶ直線であることが容易にわかるがまずそれを微分方程式の形で証明する。
 
-\section{おもちゃ問題}
-\begin{tcolorbox}[colback=white,title=\textbf{おもちゃ問題}]
-与えられた2点を境界に持つ長さが最小の曲線は存在するか。
-\end{tcolorbox}
-\[
-\forall \epsilon > 0 : \exists \delta > 0
-\]
-\titlebox{タイトル}{本文}
+    二点 $A(a,\alpha) B(b,\beta)$をとったときにその二点を結ぶ最小の曲線 $f(x)$とまた他の曲線 $g(x)$を取ってくる。(このとき $g(x)$の長さは $f(x)$と同じかそれ以上となる)
+    よって $f$の最小性から
+    \[
+    \int_a^b \sqrt{1 + g'(x)^2} \, dx \, \geq \, \int_a^b \sqrt{1 + f'(x)^2} \, dx
+    \]
+    がどんな $g$に対しても成り立つ。
 
+    またここで $h(x)$: $a,b$の近くで0である任意の $[a,b]$上の関数を取ってきて
+    \[
+    y = f(x) + th(x) \, (t \in \mathbb{R})
+    \]
+    を考えると
+
+    $t = 0 \Rightarrow y = f(x)$で長さが最小、
+    $t$を動かすと $h(x)$の分だけ $f(x)$が変化する。
+
+    そこでこの曲線の長さは
+    \[
+    \int_a^b \sqrt{1 + (f'(x) + th'(x))^2} \, dx
+    \]
+    となりこれは $t$の関数となっている。
+    上述したとおりこの関数は $t = 0$で最小になっているからその点での導関数の値は0になっている。つまり、この場合微分が積分の中に入れられることから
+    \begin{eqnarray*}
+      \frac{d}{dt}\int_a^b \sqrt{1 + (f'(x) + th'(x))^2} \, dx & = & 0 \\
+      \int_a^b \dell{}{t} \sqrt{1 + (f'(x) + th'(x))^2} \, dx & = & 0 \\
+      \left. \int_a^b \frac{1}{2} \frac{2(f'(x) + th'(x))h'(x)}{\sqrt{1 + (f'(x) + th'(x))^2}} \, dx \right|_{t = 0} & = & 0 \\
+      \int_a^b \frac{f'(x) h'(x)}{\sqrt{1 + f'(x)^2}} & = & 0
+    \end{eqnarray*}
+    部分積分と、 $h(x)$の定義から $h(a) = h(b) = 0$より
+    \begin{eqnarray*}
+      \left[ \frac{f'(x)}{\sqrt{1 + f'(x)^2}} h(x) \right]_a^b - \int_a^b \left( \frac{f'(x)}{\sqrt{1 + f'(x)^2}} \right)' h(x) \, dx & = & 0 \\
+      \int_a^b \left( \frac{f'(x)}{\sqrt{1 + f'(x)^2}} \right)' h(x) \, dx & = & 0 \\
+    \end{eqnarray*}
+    そして、 $h(x)$は $x = a,b$で $0$になるという条件以外は任意なので上の式が成り立つためには
+    \[
+    \left( \frac{f'(x)}{\sqrt{1 + f'(x)^2}} \right)' = 0
+    \]
+    が必要。この左辺は曲率と呼ぶ。
+    この条件より $f''(x) = 0$が必要となりこれは $A,B$を結ぶ直線にほかならない。よって長さが最小となる曲線は与えられた二点を結ぶ直線であることがわかった。
+    \\
+    \\
+    三次元でも同様に曲面積が最小となる $z = f(x,y)$となる関数と $xy$平面上の領域 $U$を考えれば積分の式が
+    \[
+    \iint_U \sqrt{1 + f_x^2 + f_y^2} \, dxdy
+    \]
+    となって曲率が0になることが必要であるので結果として
+    \[
+    \left( \frac{f_x}{\sqrt{1 + f_x^2 + f_y^2}} \right)_x + \left( \frac{f_y}{\sqrt{1 + f_x^2 + f_y^2}} \right)_y = 0
+    \]
+    を満たす $f(x,y)$が曲面積を最小にする。
+
+    この答えは曲面積を最小にする曲面が存在しているという仮定のもとでその曲面が満たす条件を述べただけなので存在するか否かに対しては答えていない。
+    \clearpage
+\end{multicols}
 \end{document}

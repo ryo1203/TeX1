@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.4.2)  29 MAY 2018 16:40
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.4.2)  23 MAY 2018 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**first_literacy_math.tex
-(./first_literacy_math.tex
+**zakki.tex
+(./zakki.tex
 pLaTeX2e <2018/03/09>+1 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (c:/w32tex/share/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -150,9 +150,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 99.
- (c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+Package graphics Info: Driver file: dvips.def on input line 99.
+ (c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
@@ -184,14 +184,13 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
  (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvipdfmx.def
- (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
- (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)
-\pgfsys@objnum=\count107
-))
+Driver file for pgf: pgfsys-dvips.def
+ (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+ (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count107
+)))
 (c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count108
@@ -203,7 +202,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvipdfmx.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
@@ -365,133 +364,63 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \tikz@expandcount=\count126
  (c:/w32tex/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (c:/w32tex/share/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count127
-\mult@box=\box64
-\multicol@leftmargin=\dimen181
-\c@unbalance=\count128
-\c@collectmore=\count129
-\doublecol@number=\count130
-\multicoltolerance=\count131
-\multicolpretolerance=\count132
-\full@width=\dimen182
-\page@free=\dimen183
-\premulticols=\dimen184
-\postmulticols=\dimen185
-\multicolsep=\skip50
-\multicolbaselineskip=\skip51
-\partial@page=\box65
-\last@line=\box66
-\maxbalancingoverflow=\dimen186
-\mult@rightbox=\box67
-\mult@grightbox=\box68
-\mult@gfirstbox=\box69
-\mult@firstbox=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\c@columnbadness=\count133
-\c@finalcolumnbadness=\count134
-\last@try=\dimen187
-\multicolovershoot=\dimen188
-\multicolundershoot=\dimen189
-\mult@nat@firstbox=\box88
-\colbreak@box=\box89
-\mc@col@check@num=\count135
-)
-\c@theo=\count136
-\c@defi=\count137
-\c@lemm=\count138
-\c@plob=\count139
-\c@axio=\count140
- (./first_literacy_math.aux)
-\openout1 = `first_literacy_math.aux'.
+)))
+\c@theo=\count127
+\c@defi=\count128
+\c@lemm=\count129
+\c@plob=\count130
+\c@axio=\count131
+ (./zakki.aux)
+\openout1 = `zakki.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 16.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 16.
+(Font)              scaled to size 6.72699pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 16.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+(Font)              scaled to size 4.805pt on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
  (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
  (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 16.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 13.
  (c:/w32tex/share/texmf-dist/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 17.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 18.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 18.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 25.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 25.
-
-Overfull \hbox (29.60155pt too wide) in alignment at lines 54--57
+Overfull \hbox (250.98865pt too wide) in alignment at lines 21--24
  [][][] []
  []
 
 [1
 
-] [2] (./first_literacy_math.aux) ) 
-Here is how much of TeX's memory you used:
- 13810 strings out of 493611
- 279809 string characters out of 6149885
- 325311 words of memory out of 5000000
- 17187 multiletter control sequences out of 15000+600000
- 17720 words of font info for 81 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 54i,9n,73p,843b,446s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on first_literacy_math.dvi (2 pages, 9740 bytes).
+] (./zakki.aux) ) 
+Here is how much of TeX's memory you used:
+ 13569 strings out of 493611
+ 275256 string characters out of 6149885
+ 323159 words of memory out of 5000000
+ 16961 multiletter control sequences out of 15000+600000
+ 10750 words of font info for 49 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 54i,7n,73p,829b,169s stack positions out of 5000i,500n,10000p,500000b,80000s
+
+Output written on zakki.dvi (1 page, 7204 bytes).

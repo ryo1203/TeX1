@@ -1,0 +1,27 @@
+\documentclass[twocolumn]{jsarticle}
+\usepackage{mymacros}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{tcolorbox}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\newtheorem{theo}{定理}
+\newtheorem{defi}{定義}
+\newtheorem{lemm}{補題}
+\newtheorem{plob}{演習問題}
+\newtheorem{axio}{公理}
+\begin{document}
+領域 $D = \{ x^2 + y^2 + z^2 \le a^2 \}$において重積分
+\[
+\iiint_D \frac{dxdydz}{(x + y + z + 1)^3}
+\]
+の値を求める。
+
+$z$を固定すると
+$-a \le z \le a , -\sqrt{a^2 - z^2} \le y \le \sqrt{a^2 - z^2} , -\sqrt{a^2 - z^2 - y^2} \le x \le \sqrt{a^2 - z^2 - y^2}$より
+\begin{eqnarray*}
+\int_{-a}^a dz \int_{-\sqrt{a^2 - z^2}}^{\sqrt{a^2 - z^2}} dy \int_{-\sqrt{a^2 - z^2 - y^2}}^{\sqrt{a^2 - z^2 - y^2}} \frac{dx}{(x + y + z + 1)^3} \\
+& = & \int_{-a}^a dz \int_{-\sqrt{a^2 - z^2}}^{\sqrt{a^2 - z^2}} \left[ -\frac{1}{2(x + y + z + 1)^2} \right]_{-\sqrt{a^2 - z^2 - y^2}}^{\sqrt{a^2 - z^2 - y^2}} dy \\
+\end{eqnarray*}
+
+
+\end{document}

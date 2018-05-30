@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1527579645 "first_literacy_math.dvi" "first_literacy_math.pdf" "first_literacy_math" 1527579648
-  "first_literacy_math.dvi" 1527579645 9740 22700333eb9f41bf4fcab57f78f030e2 "latex"
+["dvipdf"] 1527672674 "first_literacy_math.dvi" "first_literacy_math.pdf" "first_literacy_math" 1527672677
+  "first_literacy_math.dvi" 1527672674 13800 9d9ab7c04de354c5e2a13aca319edfa8 "latex"
   (generated)
   "first_literacy_math.pdf"
-["latex"] 1527579640 "first_literacy_math.tex" "first_literacy_math.dvi" "first_literacy_math" 1527579648
+["latex"] 1527672669 "first_literacy_math.tex" "first_literacy_math.dvi" "first_literacy_math" 1527672677
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1519818042 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1519818042 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1519818042 856 7404843a5f798859944d7973a47821d5 ""
@@ -123,10 +123,10 @@
   "c:/w32tex/share/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1520730895 6061 1242b5308ecb0db77c71c1ff6c687ace ""
   "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1522623713 4357249 271e9e7c19bbcb877e2455c5edb85e2f ""
   "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1518859120 32699 6adc13c376251eb7d184d2675f4e7970 ""
-  "first_literacy_math.aux" 1527579645 118 2917fa473171378e6b2cca469d4ec670 ""
-  "first_literacy_math.tex" 1527579638 3892 b13db170d8cec35f9641da45edb05a7a ""
-  "mymacros.sty" 1527577706 377 f5da3ccaab257db732b282d833feb53f ""
+  "first_literacy_math.aux" 1527672674 405 9cf7c655e778c5b1f74487d1bb99ff2c ""
+  "first_literacy_math.tex" 1527672668 6790 da23cf8c053d2916fadfcd70f8a7dd61 ""
+  "mymacros.sty" 1527637485 370 6d6cb8c4e5fb80496340d3561b1aea56 ""
   (generated)
-  "first_literacy_math.dvi"
-  "first_literacy_math.log"
   "first_literacy_math.aux"
+  "first_literacy_math.log"
+  "first_literacy_math.dvi"

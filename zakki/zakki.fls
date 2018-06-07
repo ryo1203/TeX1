@@ -56,8 +56,8 @@ INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT c:/w32tex/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 INPUT c:/w32tex/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
@@ -65,9 +65,9 @@ INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
@@ -146,6 +146,8 @@ INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT c:/w32tex/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT c:/w32tex/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT c:/w32tex/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT zakki.aux
 INPUT zakki.aux
 OUTPUT zakki.aux
